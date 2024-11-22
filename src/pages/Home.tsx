@@ -1,7 +1,6 @@
-import React from 'react';
-import Layout from '../components/layout';
-import Welcomer from '../components/welcomer';
-import SectionList from '../components/section-list';
+import Layout from '../components/layout/layout';
+import Welcomer from '../components/home/welcomer';
+import SectionList from '../components/home/section-list';
 
 export default function Home() {
   return (

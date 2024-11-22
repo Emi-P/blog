@@ -113,3 +113,21 @@ body {
 .accent-1 {
   border-color: var(--border-accent-1);
 }
+
+.backhomebutton {
+  background-color: var(--mocha-pink);
+  color: var(--mocha-base);
+  border: none;
+  border-radius: 8px;
+  padding: 10pt;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.backhomebutton:hover {
+  background-color: var(--mocha-yellow);
+}
