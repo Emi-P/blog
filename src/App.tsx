@@ -1,10 +1,10 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import Welcomer from './components/welcomer'
 import Footer from './components/footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
