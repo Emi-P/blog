@@ -1,6 +1,6 @@
 import Layout from '../components/layout/layout';
 import Welcomer from '../components/home/welcomer';
-import SectionList from '../components/home/section-list';
+import SectionList from '../components/home/sectionList';
 
 export default function Home() {
   return (

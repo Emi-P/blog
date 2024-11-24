@@ -110,13 +110,32 @@ body {
   white-space: nowrap;
 }
 
+.Emibox .seeAll {
+  color: var(--mocha-peach);
+  background-color: var(--mocha-surface0);
+  border: 5pt solid var(--mocha-base);
+  padding: 10pt;
+  font-weight: 1000;
+  width: fit-content;
+  border-radius: 15px;
+  white-space: nowrap;
+  position: relative;
+  bottom: -42pt;
+  justify-self: center;
+  margin: 0;
+  margin-top: -40pt ;
+  max-width: 200pt;
+  white-space: nowrap;
+
+}
+
 .accent-1 {
   border-color: var(--border-accent-1);
 }
 
 .backhomebutton {
-  background-color: var(--mocha-pink);
-  color: var(--mocha-base);
+  color: var(--mocha-peach);
+  background-color: var(--mocha-surface0);
   border: none;
   border-radius: 8px;
   padding: 10pt;

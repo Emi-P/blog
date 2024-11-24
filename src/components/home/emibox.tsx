@@ -4,9 +4,10 @@ interface EmiboxProps {
     title: string;
     links: { href: string, text: string }[];
     desc: string;
+    seeAll: { href: string, text: string };
 }
 
-const Emibox: React.FC<EmiboxProps> = ({ title, links, desc }) => {
+const Emibox: React.FC<EmiboxProps> = ({ title, links, desc, seeAll }) => {
     return (
         <div className="Emibox self-center place-content-center align-middle w-9/12 md:w-6/12 lg:w-6/12">
             {title &&
@@ -26,10 +27,15 @@ const Emibox: React.FC<EmiboxProps> = ({ title, links, desc }) => {
             )}
             <div className="grid grid-cols-1 md:grid-cols-1">
                 {links.map((link, index) => (
-                    <a key={index} href={link.href} className="ml-5 last:mb-2 pb-3 pt-3">
+                    <a key={index} href={link.href} className="ml-5 pb-1 pt-1 first:mt-2">
                         {link.text}
                     </a>
                 ))}
+                { seeAll && (
+                    <a href={seeAll.href} className="seeAll ml-5 last:mb-2 pb-3 pt-3">
+                        {seeAll.text}
+                    </a>
+                )}
             </div>
         </div>
     );
