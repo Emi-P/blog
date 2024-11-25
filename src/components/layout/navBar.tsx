@@ -37,14 +37,12 @@ export const NavBar = () => {
     }, [dropdownMenuShow])
 
     return (
-        <div className='bg-black text-white relative flex p-4 justify-between'>
+        <div className='NavBarBase relative flex p-3 justify-between m-2 rounded-lg shadow-lg pl-6 pr-6'>
             <div className='flex'>
                 <a href='/' className=''>
                     <h1 className=''>{'<ElMalditoBlog/>'}</h1>
                 </a>
             </div>
-
-
             <ul className={(navBarFits ? 'flex' : 'hidden') + ' inline-block space-x-3'}>
                 {listItems.map((item, index) => (
                     <li key={index}>
@@ -55,8 +53,8 @@ export const NavBar = () => {
 
 
             <div className={(navBarFits ? 'hidden' : 'flex') + ' absolute top-0 right-0 p-4'}>
-                <button onClick={() => setDropdownMenuShow(!dropdownMenuShow)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white">
+                <button onClick={() => setDropdownMenuShow(!dropdownMenuShow)} className=''>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-7 mr-2 pb-1" fill="none" viewBox="0 0 24 24" stroke="var(--mocha-mauve)">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
                     </svg>
                 </button>
@@ -68,11 +66,11 @@ export const NavBar = () => {
                         animate={{ right: "0%" }}
                         exit={{ right: "-100%" }}
                         transition={{ duration: 0.4 }}
-                        className='lg:hidden h-screen bg-gray-800 text-white absolute w-[50%] top-[3.7rem] right-0 z-50'
+                        className='lg:hidden min-h-[fit-content] rounded-lg mb-5 absolute w-[70%] top-[4rem] right-0 z-50'
                     >
-                        <ul className='text-center first:pt-2'>
+                        <ul className='text-center NavBarDropDown rounded-lg'>
                             {listItems.map((item, index) => (
-                                <li key={index}>
+                                <li key={index} className='first:pt-2 last:pb-2 text-lg'>
                                     <a href={item.href}>{item.name}</a>
                                 </li>
                             ))}

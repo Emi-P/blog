@@ -136,6 +136,19 @@ body {
 
 }
 
+.NavBarBase {
+  color: var(--mocha-mauve);
+  background-color: var(--mocha-mantle);
+  border: var(--mocha-mauve);
+  border: 1.3pt solid;
+}
+
+.NavBarBase .NavBarDropDown {
+  color: var(--mocha-mauve);
+  background-color: var(--mocha-mantle);
+  border: 1.3pt solid;
+}
+
 .accent-1 {
   border-color: var(--border-accent-1);
 }
