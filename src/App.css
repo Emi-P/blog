@@ -77,6 +77,13 @@ body {
   @apply antialiased;
 }
 
+.nav-bar {
+  background: var(--mocha-mauve);
+  color: var(--mocha-base);
+  display: flex;
+  padding: 10pt;
+}
+
 .footer {
   color: var(--mocha-base);
   background: var(--mocha-blue);
