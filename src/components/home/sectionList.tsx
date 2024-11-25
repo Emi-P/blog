@@ -1,6 +1,6 @@
 import Emibox from './emibox'
 
-const mathNotesPrefix = "/blog/math-notes";
+const mathNotesPrefix = "/math-notes";
 const mathNotes = [
     { href: mathNotesPrefix + "/probabilidad_y_estadistica.pdf", text: "Probabilidad y estadística" },
     { href: mathNotesPrefix + "/notas_sobre_polinomios_ortogonales.pdf", text: "Polinomios ortogonales" },
