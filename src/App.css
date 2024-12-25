@@ -175,18 +175,6 @@ body {
   text-wrap: wrap;
 }
 
-.blog-post pre {
-  background-color: var(--mocha-surface0);
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  padding: 5pt;
-  padding-left: 10pt;
-  padding-right: 10pt;
-  border-radius: 10pt;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
 .blog-post p code {
   background-color: var(--mocha-surface0);
   padding: 2pt;
@@ -201,8 +189,4 @@ body {
 .blog-post h2 {
   font-size: 1.25rem;
   color: var(--mocha-sky)
-}
-
-.blog-post .language-python{
-     
 }

@@ -3,7 +3,7 @@ Patrick and Sponge Bob were really happy with those orders you made for them, bu
 
 # Context
 On connecting via netcat:
-```
+```bash
 ❯ nc mimas.picoctf.net 62487
 Give me your order and I'll read it back to you:
 1
@@ -33,7 +33,7 @@ Bye!
 ### Reading the arg ``buf`` using ``buf``?
 Since this is a 64-bit program, the argument for the `printf` function
 can be accessed using the `%5$s` format string. The syntax is `%<arg number>$<format>` for 32-bit programs, and `%<arg_number+5>$<format>` for 64-bit.
-```
+```bash
 ❯ nc mimas.picoctf.net 62487
 Give me your order and I'll read it back to you:
 hello%5$s

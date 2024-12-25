@@ -19,7 +19,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ postPath }) => {
     }, [postPath]);
 
     return (
-        <div className="blog-post w-10/12 md:w-8/12 lg:w-3/6 mx-auto">
+        <div className="blog-post w-10/12 md:w-8/12 lg:w-5/12 mx-auto">
             <ReactMarkdown
         components={{
           code({ className, children, ...rest }) {

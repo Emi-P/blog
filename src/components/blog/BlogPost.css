@@ -2,10 +2,6 @@
     text-wrap: wrap;
   }
   
-  .blog-post pre {
-    background-color: var(--mocha-surface0);
-    padding: 5pt;
-  }
   
   .blog-post h1 {
     color: var(--mocha-red);

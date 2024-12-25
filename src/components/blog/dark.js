@@ -1,8 +1,8 @@
-const Dark = {
+const Catppuccin = {
   "code[class*=\"language-\"]": {
-    "color": "white",
+    "color": "#cdd6f4",
     "background": "none",
-    "textShadow": "0 -.1em .2em black",
+    "textShadow": "0 -.1em .2em #1e1e2e",
     "fontFamily": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
     "fontSize": "1em",
     "textAlign": "left",
@@ -20,9 +20,9 @@ const Dark = {
     "hyphens": "none"
   },
   "pre[class*=\"language-\"]": {
-    "color": "white",
-    "background": "hsl(30, 20%, 25%)",
-    "textShadow": "0 -.1em .2em black",
+    "color": "#cdd6f4",
+    "background": "#181825",
+    "textShadow": "0 -.1em .2em #1e1e2e",
     "fontFamily": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace",
     "fontSize": "1em",
     "textAlign": "left",
@@ -41,29 +41,29 @@ const Dark = {
     "padding": "1em",
     "margin": ".5em 0",
     "overflow": "auto",
-    "border": ".3em solid hsl(30, 20%, 40%)",
+    "border": ".12em solid #cba6f7",
     "borderRadius": ".5em",
-    "boxShadow": "1px 1px .5em black inset"
+    "boxShadow": "1px 1px .5em #1e1e2e inset"
   },
   ":not(pre) > code[class*=\"language-\"]": {
-    "background": "hsl(30, 20%, 25%)",
+    "background": "#1e1e2e",
     "padding": ".15em .2em .05em",
     "borderRadius": ".3em",
-    "border": ".13em solid hsl(30, 20%, 40%)",
-    "boxShadow": "1px 1px .3em -.1em black inset",
+    "border": ".13em solid #313244",
+    "boxShadow": "1px 1px .3em -.1em #1e1e2e inset",
     "whiteSpace": "normal"
   },
   "comment": {
-    "color": "hsl(30, 20%, 50%)"
+    "color": "#6c7086"
   },
   "prolog": {
-    "color": "hsl(30, 20%, 50%)"
+    "color": "#6c7086"
   },
   "doctype": {
-    "color": "hsl(30, 20%, 50%)"
+    "color": "#6c7086"
   },
   "cdata": {
-    "color": "hsl(30, 20%, 50%)"
+    "color": "#6c7086"
   },
   "punctuation": {
     "Opacity": ".7"
@@ -72,74 +72,74 @@ const Dark = {
     "Opacity": ".7"
   },
   "property": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "tag": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "boolean": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "number": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "constant": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "symbol": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "selector": {
-    "color": "hsl(75, 70%, 60%)"
+    "color": "#a6e3a1"
   },
   "attr-name": {
-    "color": "hsl(75, 70%, 60%)"
+    "color": "#a6e3a1"
   },
   "string": {
-    "color": "hsl(75, 70%, 60%)"
+    "color": "#a6e3a1"
   },
   "char": {
-    "color": "hsl(75, 70%, 60%)"
+    "color": "#a6e3a1"
   },
   "builtin": {
-    "color": "hsl(75, 70%, 60%)"
+    "color": "#a6e3a1"
   },
   "inserted": {
-    "color": "hsl(75, 70%, 60%)"
+    "color": "#a6e3a1"
   },
   "operator": {
-    "color": "hsl(40, 90%, 60%)"
+    "color": "#fab387"
   },
   "entity": {
-    "color": "hsl(40, 90%, 60%)",
+    "color": "#fab387",
     "cursor": "help"
   },
   "url": {
-    "color": "hsl(40, 90%, 60%)"
+    "color": "#fab387"
   },
   ".language-css .token.string": {
-    "color": "hsl(40, 90%, 60%)"
+    "color": "#fab387"
   },
   ".style .token.string": {
-    "color": "hsl(40, 90%, 60%)"
+    "color": "#fab387"
   },
   "variable": {
-    "color": "hsl(40, 90%, 60%)"
+    "color": "#fab387"
   },
   "atrule": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "attr-value": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "keyword": {
-    "color": "hsl(350, 40%, 70%)"
+    "color": "#f38ba8"
   },
   "regex": {
-    "color": "#e90"
+    "color": "#f9e2af"
   },
   "important": {
-    "color": "#e90",
+    "color": "#f9e2af",
     "fontWeight": "bold"
   },
   "bold": {
@@ -149,8 +149,8 @@ const Dark = {
     "fontStyle": "italic"
   },
   "deleted": {
-    "color": "red"
+    "color": "#f38ba8"
   }
 };
 
-export default Dark;
+export default Catppuccin;
