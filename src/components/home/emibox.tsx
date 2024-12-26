@@ -9,7 +9,7 @@ interface EmiboxProps {
 
 const Emibox: React.FC<EmiboxProps> = ({ title, links, desc, seeAll }) => {
     return (
-        <div className="Emibox self-center place-content-center align-middle w-9/12 md:w-6/12 lg:w-6/12">
+        <div className="Emibox self-center place-content-center align-middle w-9/12 md:w-6/12 lg:w-6/12 mb-6">
             {title &&
             <h1 className="Emibox-title text-2xl lg:text-4x1">{title}</h1>
             }

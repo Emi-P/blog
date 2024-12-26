@@ -10,6 +10,7 @@ const SectionList: React.FC = () => {
     return (
         <div className=" grid gap-6">
             <Emibox title={"Math Notes"} links={mathNotes} desc={""} seeAll={{ text: "Ver todo", href: "math-notes" }} />
+            <Emibox title={"Writeups"} links={mathNotes} desc={""} seeAll={{ text: "Ver todo", href: "math-notes" }} />
         </div>
     );
 };

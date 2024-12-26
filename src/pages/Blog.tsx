@@ -3,14 +3,17 @@ import React from 'react';
 import BlogPost from '../components/blog/BlogPost';
 import Layout from '../components/layout/layout';
 
-const Blog: React.FC = () => {
-    // Aquí puedes definir la lógica para seleccionar qué post mostrar
-    const postPath = '/posts/post1.md';
+import { useParams } from 'react-router-dom';
 
+const Blog = () => {
+    const { postName } = useParams<{ postName: string }>();
+
+    // Aquí puedes definir la lógica para seleccionar qué post mostrar
+    console.log("/blog/posts/"+postName);
     return (
         <Layout>
         <div className="blog-page">
-            <BlogPost postPath={'/blog/posts/post1.md'} />
+            <BlogPost postPath={"/blog/posts/"+postName+".md"} />
         </div>
         </Layout>
     );
