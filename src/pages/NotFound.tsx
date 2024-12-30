@@ -1,5 +1,5 @@
 import Layout from "../components/layout/layout";
-import { BackHomeButton } from "../components/notfound/backHomeButton";
+import { Button } from "../components/notfound/backHomeButton";
 
 const notfoundgifs = [
     "https://giphy.com/embed/26FPGt0CsPqPAmXg4",
@@ -16,7 +16,7 @@ export default function NotFound() {
             <iframe src={notfoundgifs[Math.floor(Math.random() * notfoundgifs.length)]} width="480" height="480" frameBorder="0" allowFullScreen></iframe>
         </div>
         <div className="flex justify-center mt-4">
-            <BackHomeButton />
+            <Button href={"/"} />
         </div>
     </Layout>
     );

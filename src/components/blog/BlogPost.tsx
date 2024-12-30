@@ -6,21 +6,23 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import dark from './dark'
 
 interface BlogPostProps {
-    postPath: string;
+  postPath: string;
 }
 
 const BlogPost: React.FC<BlogPostProps> = ({ postPath }) => {
-    const [content, setContent] = useState('');
+  const [content, setContent] = useState('');
 
-    useEffect(() => {
-        fetch(postPath)
-            .then((response) => response.text())
-            .then((text) => setContent(text));
-    }, [postPath]);
+  useEffect(() => {
+    fetch(postPath)
+      .then((response) => response.text())
+      .then((text) => {
+        setContent(text);
+      })
+  }, [postPath]);
 
-    return (
-        <div className="blog-post w-10/12 md:w-8/12 lg:w-5/12 mx-auto">
-            <ReactMarkdown
+  return (
+    <div className="blog-post w-10/12 md:w-8/12 lg:w-5/12 mx-auto">
+      <ReactMarkdown
         components={{
           code({ className, children, ...rest }) {
             const match = /language-(\w+)/.exec(className || "");
@@ -43,8 +45,8 @@ const BlogPost: React.FC<BlogPostProps> = ({ postPath }) => {
       >
         {content}
       </ReactMarkdown>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default BlogPost;
