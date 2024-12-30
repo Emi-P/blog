@@ -117,25 +117,6 @@ body {
   white-space: nowrap;
 }
 
-.Emibox .seeAll {
-  color: var(--mocha-peach);
-  background-color: var(--mocha-surface0);
-  border: 5pt solid var(--mocha-base);
-  padding: 10pt;
-  font-weight: 1000;
-  width: fit-content;
-  border-radius: 15px;
-  white-space: nowrap;
-  position: relative;
-  bottom: -42pt;
-  justify-self: center;
-  margin: 0;
-  margin-top: -40pt ;
-  max-width: 200pt;
-  white-space: nowrap;
-
-}
-
 .NavBarBase {
   color: var(--mocha-mauve);
   background-color: var(--mocha-mantle);

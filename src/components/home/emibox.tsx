@@ -35,7 +35,7 @@ const Emibox: React.FC<EmiboxProps> = ({ title, links, desc, seeAll }) => {
             </div>
             <div className="text-center">
             { seeAll && (
-                <Button href="seeAll.href" className="relative text-center max-w-fit top-7"/>
+                <Button href={seeAll.href} text={seeAll.text} className="relative text-center max-w-fit top-7"/>
             )}
             </div>
         </div>

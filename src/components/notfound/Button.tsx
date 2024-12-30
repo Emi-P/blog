@@ -1,13 +1,14 @@
 
 interface ButtonProps {
     href: string;
+    text: string;
     className: string;
 }
 
-export const Button = ({ href, className }: ButtonProps) => {
+export const Button = ({ href, text, className }: ButtonProps) => {
     return (
         <a href={href} className={"Button " + className}>
-            <span>Back Home</span>
+            <span>{text}</span>
         </a>
     );
 }

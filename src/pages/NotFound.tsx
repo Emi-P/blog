@@ -16,7 +16,7 @@ export default function NotFound() {
             <iframe src={notfoundgifs[Math.floor(Math.random() * notfoundgifs.length)]} width="480" height="480" frameBorder="0" allowFullScreen></iframe>
         </div>
         <div className="flex justify-center mt-4">
-            <Button href={"/"} />
+            <Button text="Back Home" href={"/"} className="" />
         </div>
     </Layout>
     );
