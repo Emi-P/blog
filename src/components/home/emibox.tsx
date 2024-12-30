@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../notfound/Button";
 
 interface EmiboxProps {
     title: string;
@@ -31,11 +32,11 @@ const Emibox: React.FC<EmiboxProps> = ({ title, links, desc, seeAll }) => {
                         {link.text}
                     </a>
                 ))}
-                { seeAll && (
-                    <a href={seeAll.href} className="seeAll ml-5 last:mb-2 pb-3 pt-3">
-                        {seeAll.text}
-                    </a>
-                )}
+            </div>
+            <div className="text-center">
+            { seeAll && (
+                <Button href="seeAll.href" className="relative text-center max-w-fit top-7"/>
+            )}
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 import Layout from "../components/layout/layout";
-import { Button } from "../components/notfound/backHomeButton";
+import { Button } from "../components/notfound/Button";
 
 const notfoundgifs = [
     "https://giphy.com/embed/26FPGt0CsPqPAmXg4",
