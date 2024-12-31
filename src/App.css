@@ -171,3 +171,34 @@ body {
   font-size: 1.25rem;
   color: var(--mocha-sky)
 }
+
+.WriteupListSeparator{
+  border-top: 1pt solid var(--mocha-mauve);
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  margin-left: 3%;
+  margin-right: 3%;
+  border-radius: 10px;
+}
+
+.WriteupList {
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: var(--mocha-surface0);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.WriteupListItem {
+  padding-left: 10pt;
+  padding-right: 10pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  transition-duration: .70s;
+}
+
+.WriteupListItem:hover {
+  background-color: var(--mocha-mauve);
+  color: var(--mocha-base);
+  font-size: 16pt;
+  padding: 2%;
+}
