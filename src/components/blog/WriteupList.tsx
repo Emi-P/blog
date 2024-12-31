@@ -20,7 +20,7 @@ const WriteupList = () => {
     <div className='WriteupList'>{writeups.map((writeup, index) => (
                 <a href={"writeups/"+`${writeup.title}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="WriteupListItem text-center">
-                    > {writeup.title}
+                    &gt; {writeup.title}
                     </div>
                 </a>
         ))}

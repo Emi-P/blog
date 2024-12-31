@@ -13,7 +13,7 @@ const Blog = () => {
         return (
             <Layout>
                 <div className='WriteupsIntro'>
-                    <h1 className='text-5xl text-center'>Writeups</h1>
+                    <h1 className='text-5xl text-center pt-6'>Writeups</h1>
                     <div className='w-10/12 md:w-8/12 lg:w-5/12 mx-auto'>
                     <p className='pt-4 text-2xl mb-10'>Many of these writeups are about CTF and cybersecurity.
                          I'll post whatever I find interesting.</p>

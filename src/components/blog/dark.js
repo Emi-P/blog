@@ -1,4 +1,5 @@
-const Catppuccin = {
+
+const dark = {
   "code[class*=\"language-\"]": {
     "color": "#cdd6f4",
     "background": "none",
@@ -153,4 +154,4 @@ const Catppuccin = {
   }
 };
 
-export default Catppuccin;
+export default dark;
