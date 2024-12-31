@@ -1,12 +1,12 @@
 import Emibox from './emibox'
 
-const mathNotesPrefix = "/blog/math-notes";
+const mathNotesPrefix = "/math-notes";
 const mathNotes = [
     { href: mathNotesPrefix + "/probabilidad_y_estadistica.pdf", text: "Probabilidad y estadística" },
     { href: mathNotesPrefix + "/notas_sobre_polinomios_ortogonales.pdf", text: "Polinomios ortogonales" },
 ];
 
-const writeupsPrefix = "/blog/writeups";
+const writeupsPrefix = "/writeups";
 const writeups = [
     { href: writeupsPrefix + "/format-strings-1", text: "Format strings 1 (PicoCTF)" },
     { href: writeupsPrefix + "/buffer-overflow-1", text: "Buffer overflow 1 (PicoCTF)" },
