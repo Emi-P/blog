@@ -27,7 +27,7 @@ const Blog = () => {
     return (
         <Layout>
         <div className="blog-page">
-            <BlogPost postPath={"/blog/posts/"+postName+".md"} />
+            <BlogPost postPath={"/posts/"+postName+".md"} />
         </div>
         </Layout>
     );

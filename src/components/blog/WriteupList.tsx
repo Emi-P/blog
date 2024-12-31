@@ -8,7 +8,7 @@ const WriteupList = () => {
     const [writeups, setWriteups] = useState<Writeup[]>([]);
 
     useEffect(() => {
-        fetch('/blog/writeups-names.json')
+        fetch('/writeups-names.json')
             .then(response => response.json())
             .then(data => setWriteups(data))
             .catch(error => console.error('Error fetching writeups:', error));
