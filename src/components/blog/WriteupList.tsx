@@ -1,7 +1,4 @@
-
-import { div, hr } from 'framer-motion/client';
-import React, { useEffect, useState } from 'react';
-import { data } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 interface Writeup {
     title: string;
@@ -17,7 +14,7 @@ const WriteupList = () => {
             .catch(error => console.error('Error fetching writeups:', error));
     }, []);
     return (
-    <div className='WriteupList'>{writeups.map((writeup, index) => (
+    <div className='WriteupList'>{writeups.map((writeup) => (
                 <a href={"writeups/"+`${writeup.title}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="WriteupListItem text-center">
                     &gt; {writeup.title}

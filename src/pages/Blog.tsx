@@ -1,5 +1,4 @@
 // src/pages/Blog.tsx
-import React from 'react';
 import BlogPost from '../components/blog/BlogPost';
 import Layout from '../components/layout/layout';
 import WriteupList from '../components/blog/WriteupList';
