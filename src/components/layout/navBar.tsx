@@ -9,7 +9,7 @@ const listItems = [
     },
     {
         name: 'About',
-        href: 'about'
+        href: '/about'
     },
 ]
 
@@ -40,7 +40,7 @@ export const NavBar = () => {
         <div className='NavBarBase relative flex p-3 justify-between m-2 rounded-lg shadow-lg pl-6 pr-6 max-w-screen-lg lg:mx-auto'>
             <div className='flex'>
                 <a href='/' className=''>
-                    <h1 className=''>{'<ElMalditoBlog/>'}</h1>
+                    <h1 className=''>{'<ElEmisBlog/>'}</h1>
                 </a>
             </div>
             <ul className={(navBarFits ? 'flex' : 'hidden') + ' inline-block space-x-3'}>
